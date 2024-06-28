@@ -4,19 +4,35 @@
   cursor: pointer;
   width: 100%;
   margin-top: 16;
+  overflow: hidden;
+}
+
+.char-card .ant-card-body {
+  padding: 0px 0px;
+  overflow: hidden;
 }
 
 .char-card img {
-  border: 2px solid transparent;
-  border-radius: 15px;
   width: 100%;
-  max-width: 250px;
-  height: 250px;
-  object-fit: cover;
+  height: auto;
+  object-fit: fill;
 }
 
 .char-card:hover img {
   transition: all 0.5s ease-in-out;
   transform: scale(1.1);
-  border: 2px solid;
+}
+
+.title-char {
+  background: white;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 999;
+  border-radius: 10px;
+  margin-inline: 20px;
+}
+
+.pic-card {
+  height: 250px;
 }

@@ -1,7 +1,27 @@
 .char-container {
   text-align: center;
   padding: 20px 20px;
+  height: 100vh;
+  background: url("../../assets/background/pexels-felixmittermeier-1146134.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .pagination {
   margin: 20px auto;
+  background: white;
+  padding: 5px 7px;
+  width: fit-content;
+}
+
+.char-container h1 {
+  color: white;
+}
+
+.char-container-loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

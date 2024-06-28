@@ -1,4 +1,4 @@
-import { Col, Pagination, Row } from "antd";
+import { Col, Pagination, Row, Spin } from "antd";
 import React from "react";
 import useFecthList from "../../hooks/useFecthList";
 import { getAllCharacters } from "../../services/CharService";
@@ -11,6 +11,15 @@ const Character = () => {
     useFecthList(getAllCharacters);
   const { handleCloseModal, handleOpenModal, open, selectedData } =
     useGetCharacter();
+
+  if (loading) {
+    return (
+      <div className="char-container-loading">
+        <Spin />
+      </div>
+    );
+  }
+
   return (
     <div className="char-container">
       <h1>Star War Character Catalog</h1>
@@ -39,6 +48,7 @@ const Character = () => {
           pageSize={10}
           showSizeChanger={false}
           onChange={handleChangePage}
+          showLessItems={true}
         />
       </div>
       {open && (
