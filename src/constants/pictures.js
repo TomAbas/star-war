@@ -1,0 +1,31 @@
+// import pic1 from "../assets/images/1.jpeg";
+// import pic2 from "../assets/images/2.jpeg";
+// import pic3 from "../assets/images/3.jpeg";
+// import pic4 from "../assets/images/4.jpeg";
+// import pic5 from "../assets/images/5.jpeg";
+// import pic6 from "../assets/images/6.jpeg";
+// import pic7 from "../assets/images/7.jpeg";
+// import pic8 from "../assets/images/8.jpeg";
+// import pic9 from "../assets/images/9.jpeg";
+// import pic10 from "../assets/images/10.jpeg";
+// import pic11 from "../assets/images/11jpeg";
+// import pic12 from "../assets/images/12.jpeg";
+// import pic13 from "../assets/images/13.jpeg";
+// import pic14 from "../assets/images/14.jpeg";
+
+export { default as pic1 } from "../assets/images/1.jpeg";
+export { default as pic2 } from "../assets/images/2.jpeg";
+export { default as pic3 } from "../assets/images/3.jpeg";
+export { default as pic4 } from "../assets/images/4.jpeg";
+export { default as pic5 } from "../assets/images/5.jpeg";
+export { default as pic6 } from "../assets/images/6.jpeg";
+export { default as pic7 } from "../assets/images/7.jpeg";
+export { default as pic8 } from "../assets/images/8.jpeg";
+export { default as pic9 } from "../assets/images/9.jpeg";
+export { default as pic10 } from "../assets/images/10.jpeg";
+export { default as pic11 } from "../assets/images/11.jpeg";
+export { default as pic12 } from "../assets/images/12.jpeg";
+export { default as pic13 } from "../assets/images/13.jpeg";
+export { default as pic14 } from "../assets/images/14.jpeg";
+
+// export { default as SearchIcon } from "./search.svg";

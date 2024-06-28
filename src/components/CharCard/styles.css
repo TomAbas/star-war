@@ -1,0 +1,22 @@
+.char-card {
+  border: 2px solid red;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 16;
+}
+
+.char-card img {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.char-card:hover img {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  border: 2px solid;
+}
